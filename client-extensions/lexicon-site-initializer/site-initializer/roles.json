@@ -2,8 +2,8 @@
 	{
 		"actions": [
 			{
-				"actionId": "VIEW",
-				"resource": "com.liferay.portal.kernel.model.Role",
+				"actionId": "VIEW_SITE_ADMINISTRATION",
+				"resource": "com.liferay.depot.model.DepotEntry",
 				"scope": 3
 			},
 			{
@@ -14,6 +14,21 @@
 			{
 				"actionId": "MANAGE_LAYOUTS",
 				"resource": "com.liferay.portal.kernel.model.Group",
+				"scope": 3
+			},
+			{
+				"actionId": "VIEW_SITE_ADMINISTRATION",
+				"resource": "com.liferay.portal.kernel.model.Group",
+				"scope": 3
+			},
+			{
+				"actionId": "ACCESS_IN_CONTROL_PANEL",
+				"resource": "com_liferay_layout_admin_web_portlet_GroupPagesPortlet",
+				"scope": 3
+			},
+			{
+				"actionId": "VIEW",
+				"resource": "com_liferay_layout_admin_web_portlet_GroupPagesPortlet",
 				"scope": 3
 			},
 			{
