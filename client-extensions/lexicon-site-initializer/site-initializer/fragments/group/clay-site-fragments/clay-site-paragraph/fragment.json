@@ -1,0 +1,11 @@
+{
+	"cacheable": true,
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "paragraph",
+	"jsPath": "index.js",
+	"name": "Clay Site Paragraph",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

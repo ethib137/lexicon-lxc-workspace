@@ -1,0 +1,11 @@
+{
+	"cacheable": true,
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "select-from-list",
+	"jsPath": "index.js",
+	"name": "Clay Site Heading",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

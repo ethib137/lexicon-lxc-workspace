@@ -1,0 +1,63 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+						"widthType": "Fixed"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentSettings": {
+								"allowedFragments": [
+									{
+										"key": "container"
+									},
+									{
+										"key": "row"
+									},
+									{
+										"key": "layout-elements"
+									},
+									{
+										"key": "BASIC_COMPONENT-image"
+									},
+									{
+										"key": "clay-site-heading"
+									},
+									{
+										"key": "clay-site-paragraph"
+									},
+									{
+										"key": "36713"
+									}
+								]
+							}
+						},
+						"type": "DropZone"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"globalCSSClientExtensions": [
+			{
+				"externalReferenceCode": "LXC:liferay-sample-global-css",
+				"name": "Clay Site Global CSS"
+			}
+		],
+		"themeName": "Classic",
+		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	}
+}

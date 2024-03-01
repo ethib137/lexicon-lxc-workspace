@@ -1,0 +1,33 @@
+.clay-p {
+	color: #6b6c7e;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+	margin-top: 12px;
+}
+
+.clay-h2,
+.clay-h3,
+.clay-h4 {
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	line-height: 1.25;
+	margin-bottom: 24px;
+	margin-top: calc(-66px + 24px);
+	padding-top: 66px;
+}
+
+.clay-h2 {
+	font-size: 22px;
+}
+
+.clay-h3 {
+	font-size: 19px;
+	font-weight: 700;
+	margin-bottom: 28.8px;
+}
+
+.clay-h4 {
+	font-size: 16px;
+	margin-bottom: 28.8px;
+}

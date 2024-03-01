@@ -1,0 +1,13 @@
+lexicon-site-initializer-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Lexicon OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer
+liferay-sample-site-initializer:
+    name: Lexicon Site Initializer
+    oAuthApplicationHeadlessServer: lexicon-site-initializer-oauth-application-headless-server
+    siteExternalReferenceCode: lexiconSiteInitializer
+    siteName: Lexicon
+    type: siteInitializer

@@ -1,0 +1,32 @@
+[
+	{
+		"actions": [
+			{
+				"actionId": "VIEW",
+				"resource": "com.liferay.portal.kernel.model.Role",
+				"scope": 3
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"resource": "com.liferay.portal.kernel.model.Group",
+				"scope": 3
+			},
+			{
+				"actionId": "MANAGE_LAYOUTS",
+				"resource": "com.liferay.portal.kernel.model.Group",
+				"scope": 3
+			},
+			{
+				"actionId": "PERMISSIONS",
+				"resource": "com.liferay.portal.kernel.model.Layout",
+				"scope": 3
+			}
+		],
+		"name": "Design Documentation Editor",
+		"name_i18n": {
+			"en-US": "Design Documentation Editor"
+		},
+		"scope": 3,
+		"type": 2
+	}
+]
