@@ -12,27 +12,255 @@
 					{
 						"definition": {
 							"fragmentSettings": {
-								"allowedFragments": [
+								"unallowedFragments": [
 									{
-										"key": "container"
+										"key": "BASIC_COMPONENT-button"
 									},
 									{
-										"key": "row"
+										"key": "BASIC_COMPONENT-card"
 									},
 									{
-										"key": "layout-elements"
+										"key": "BASIC_COMPONENT-date"
 									},
 									{
-										"key": "BASIC_COMPONENT-image"
+										"key": "BASIC_COMPONENT-dropdown"
 									},
 									{
-										"key": "clay-site-heading"
+										"key": "BASIC_COMPONENT-external-video"
 									},
 									{
-										"key": "clay-site-paragraph"
+										"key": "BASIC_COMPONENT-html"
 									},
 									{
-										"key": "36713"
+										"key": "BASIC_COMPONENT-heading"
+									},
+									{
+										"key": "BASIC_COMPONENT-paragraph"
+									},
+									{
+										"key": "BASIC_COMPONENT-separator"
+									},
+									{
+										"key": "BASIC_COMPONENT-slider"
+									},
+									{
+										"key": "BASIC_COMPONENT-social"
+									},
+									{
+										"key": "BASIC_COMPONENT-spacer"
+									},
+									{
+										"key": "BASIC_COMPONENT-tabs"
+									},
+									{
+										"key": "BASIC_COMPONENT-video"
+									},
+									{
+										"key": "form"
+									},
+									{
+										"key": "INPUTS-captcha"
+									},
+									{
+										"key": "INPUTS-checkbox"
+									},
+									{
+										"key": "INPUTS-date-input"
+									},
+									{
+										"key": "INPUTS-date-time-input"
+									},
+									{
+										"key": "INPUTS-file-upload"
+									},
+									{
+										"key": "INPUTS-multiselect-list"
+									},
+									{
+										"key": "INPUTS-numeric-input"
+									},
+									{
+										"key": "INPUTS-rich-text-input"
+									},
+									{
+										"key": "INPUTS-select-from-list"
+									},
+									{
+										"key": "INPUTS-submit-button"
+									},
+									{
+										"key": "INPUTS-text-input"
+									},
+									{
+										"key": "INPUTS-textarea"
+									},
+									{
+										"key": "com.liferay.fragment.renderer.categorization.inputs.internal.TagsInputFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.fragment.renderer.categorization.inputs.internal.CategoriesInputFragmentRenderer"
+									},
+									{
+										"key": "INPUTS"
+									},
+									{
+										"key": "collection-display"
+									},
+									{
+										"key": "com.liferay.fragment.internal.renderer.ContentObjectFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.fragment.renderer.collection.filter.internal.CollectionAppliedFiltersFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.fragment.internal.renderer.ContentFlagsFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.fragment.renderer.collection.filter.internal.CollectionFilterFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.fragment.internal.renderer.ContentRatingsFragmentRenderer"
+									},
+									{
+										"key": "content-display"
+									},
+									{
+										"key": "COMMERCE_ACCOUNT_FRAGMENTS-account-selector"
+									},
+									{
+										"key": "COMMERCE_ACCOUNT_FRAGMENTS"
+									},
+									{
+										"key": "COMMERCE_CART_FRAGMENTS-mini-cart"
+									},
+									{
+										"key": "COMMERCE_CART_FRAGMENTS"
+									},
+									{
+										"key": "COOKIE_BANNER-cookie-banner-simple"
+									},
+									{
+										"key": "COOKIE_BANNER"
+									},
+									{
+										"key": "DIALECT-dialect-button"
+									},
+									{
+										"key": "DIALECT-dialect-label"
+									},
+									{
+										"key": "DIALECT-dialect-nav"
+									},
+									{
+										"key": "DIALECT-dialect-tabs"
+									},
+									{
+										"key": "DIALECT-dialect-text"
+									},
+									{
+										"key": "DIALECT"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-banner"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-banner-center"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-banner-cover"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-banner-cover-center"
+									},
+									{
+										"key": "FEATURED_CONTENT-banner-slider"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-features"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-highlights"
+									},
+									{
+										"key": "FEATURED_CONTENT-composition-highlights-center"
+									},
+									{
+										"key": "FEATURED_CONTENT"
+									},
+									{
+										"key": "FOOTERS-footer-nav-dark"
+									},
+									{
+										"key": "FOOTERS-footer-nav-light"
+									},
+									{
+										"key": "FOOTERS"
+									},
+									{
+										"key": "NAVIGATION_BARS-header-dark"
+									},
+									{
+										"key": "NAVIGATION_BARS-header-light"
+									},
+									{
+										"key": "NAVIGATION_BARS"
+									},
+									{
+										"key": "com.liferay.knowledge.base.web.internal.fragment.renderer.KBArticleNavigationFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.fragment.renderer.menu.display.internal.MenuDisplayFragmentRenderer"
+									},
+									{
+										"key": "menu-display"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.ImageGalleryFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.AddToCartFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.ProductCardFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.DiscontinuedLabelFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.ProductSpecificationFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.AvailabilityFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.RequestQuoteFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.PriceFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.DynamicFieldFragmentRenderer"
+									},
+									{
+										"key": "com.liferay.commerce.product.content.web.internal.fragment.renderer.OptionSelectorFragmentRenderer"
+									},
+									{
+										"key": "commerce-product"
+									},
+									{
+										"key": "bottom-footer"
+									},
+									{
+										"key": "35068"
+									},
+									{
+										"key": "36071"
+									},
+									{
+										"key": "36515"
+									},
+									{
+										"key": "lfr-all-fragments-id"
 									}
 								]
 							}
