@@ -43,5 +43,30 @@
 		},
 		"scope": 3,
 		"type": 2
+	},
+	{
+		"actions": [
+			{
+				"actionId": "ACCESS_IN_CONTROL_PANEL",
+				"resource": "com_liferay_fragment_web_portlet_FragmentPortlet",
+				"scope": 3
+			},
+			{
+				"actionId": "VIEW",
+				"resource": "com_liferay_fragment_web_portlet_FragmentPortlet",
+				"scope": 3
+			},
+			{
+				"actionId": "MANAGE_FRAGMENT_ENTRIES",
+				"resource": "com.liferay.fragment",
+				"scope": 3
+			}
+		],
+		"name": "Page Fragment Creator",
+		"name_i18n": {
+			"en-US": "Page Fragment Creator"
+		},
+		"scope": 3,
+		"type": 2
 	}
 ]
