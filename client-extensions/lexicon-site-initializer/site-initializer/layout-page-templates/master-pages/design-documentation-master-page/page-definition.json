@@ -5,7 +5,7 @@
 				"definition": {
 					"indexed": true,
 					"layout": {
-						"widthType": "Fixed"
+						"widthType": "Fluid"
 					}
 				},
 				"pageElements": [
