@@ -7,6 +7,16 @@
 				"scope": 3
 			},
 			{
+				"actionId": "ACCESS_IN_CONTROL_PANEL",
+				"resource": "com_liferay_document_library_web_portlet_DLAdminPortlet",
+				"scope": 3
+			},
+			{
+				"actionId": "VIEW",
+				"resource": "com_liferay_document_library_web_portlet_DLAdminPortlet",
+				"scope": 3
+			},
+			{
 				"actionId": "ADD_LAYOUT",
 				"resource": "com.liferay.portal.kernel.model.Group",
 				"scope": 3
